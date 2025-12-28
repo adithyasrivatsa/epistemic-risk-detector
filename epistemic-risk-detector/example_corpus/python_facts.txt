@@ -1,0 +1,21 @@
+Python Programming Language Facts
+
+Python was created by Guido van Rossum and first released in 1991. The language was named after the British comedy group Monty Python, not the snake.
+
+Python 2.0 was released on October 16, 2000, introducing list comprehensions and a garbage collection system. Python 2 reached end-of-life on January 1, 2020.
+
+Python 3.0 was released on December 3, 2008. It was a major revision that was not fully backward compatible with Python 2. Key changes included print becoming a function, integer division returning floats by default, and strings being Unicode by default.
+
+The Global Interpreter Lock (GIL) is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at once. The GIL has been a topic of discussion for years, with various proposals to remove or work around it.
+
+PEP 703, titled "Making the Global Interpreter Lock Optional in CPython", was accepted in July 2023. This PEP proposes adding a build configuration option to disable the GIL, making it optional rather than removing it entirely. The implementation is expected to be gradual over several Python releases.
+
+Python 3.12 was released on October 2, 2023. Key features include improved error messages, support for the Linux perf profiler, and various performance improvements. Python 3.12 did NOT remove the GIL - it introduced per-interpreter GIL as an experimental feature.
+
+Python 3.13 is expected to include the first phase of the optional GIL implementation from PEP 703, available as an experimental build option.
+
+Popular Python web frameworks include Django (first released in 2005), Flask (first released in 2010), and FastAPI (first released in 2018).
+
+NumPy, the fundamental package for scientific computing in Python, was created by Travis Oliphant in 2005 as a successor to Numeric and Numarray.
+
+The Python Package Index (PyPI) hosts over 400,000 packages as of 2023.

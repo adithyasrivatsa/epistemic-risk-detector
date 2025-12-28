@@ -1,0 +1,21 @@
+Machine Learning and AI Facts
+
+The term "artificial intelligence" was coined by John McCarthy in 1956 at the Dartmouth Conference.
+
+The backpropagation algorithm, fundamental to training neural networks, was popularized by Rumelhart, Hinton, and Williams in their 1986 paper "Learning representations by back-propagating errors."
+
+Deep learning gained significant attention after AlexNet won the ImageNet Large Scale Visual Recognition Challenge in 2012, achieving a top-5 error rate of 15.3%, significantly better than the second-place entry.
+
+The Transformer architecture was introduced in the 2017 paper "Attention Is All You Need" by Vaswani et al. at Google. This architecture forms the basis of models like BERT and GPT.
+
+GPT-3, released by OpenAI in June 2020, has 175 billion parameters. GPT-4, released in March 2023, is a multimodal model that can process both text and images.
+
+BERT (Bidirectional Encoder Representations from Transformers) was released by Google in October 2018. It achieved state-of-the-art results on 11 NLP tasks.
+
+Large Language Models (LLMs) are known to hallucinate - generating plausible-sounding but factually incorrect information. This is a fundamental limitation of current architectures.
+
+The concept of "attention" in neural networks was introduced before Transformers, with Bahdanau et al.'s 2014 paper on neural machine translation being a key milestone.
+
+Reinforcement Learning from Human Feedback (RLHF) is a technique used to fine-tune language models based on human preferences. It was notably used in training ChatGPT.
+
+The term "hallucination" in the context of AI refers to outputs that are nonsensical or unfaithful to the provided source content. This differs from the medical definition of hallucination.

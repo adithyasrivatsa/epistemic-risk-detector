@@ -1,0 +1,34 @@
+# LLM Hallucination Debugger Configuration
+
+llm:
+  provider: "openai"  # Options: openai, anthropic, ollama, local
+  model: "gpt-4o-mini"
+  temperature: 0.0    # Deterministic for claim extraction
+  max_tokens: 4096
+  # api_key: null     # Falls back to OPENAI_API_KEY env var
+
+retrieval:
+  chunk_size: 512
+  chunk_overlap: 64
+  top_k: 5
+  similarity_threshold: 0.3
+  embedding_model: "all-MiniLM-L6-v2"
+  db_path: ".hallucination_debugger/evidence.db"
+
+calibration:
+  no_evidence_penalty: 0.4
+  contradiction_penalty: 0.6
+  vague_language_penalty: 0.2
+  weak_evidence_penalty: 0.15
+
+verdict:
+  hallucination_threshold: 0.3  # Below this = HALLUCINATED
+  grounded_threshold: 0.7       # Above this = GROUNDED
+  confidence_weight: 0.4
+  evidence_weight: 0.6
+
+extraction:
+  max_claims: 50
+  min_claim_length: 10
+  max_retries: 3
+  include_opinions: false
